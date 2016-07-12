@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+
+/* -------------- Header de la page --------- */
+
+header {
+    background: url(visuels/pattern.gif);
+    width: 100%;
+    height: 371px;
+}
+
+#entete {
+    width: 100%;
+}
+
+#entete img pattern {
+    background-image: url(visuels/pattern.gif);
+}
+
+
+.logo {
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+#slider {
+    background: url("visuels/bloc-noir.png");
+    width: 407px;
+    height: 312px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+
+#slider p {
+    color: white;
+    width: 250px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#slider p span {
+    color: yellow;
+}
+
+#slider p a {
+    color: white;
+}
+
+#slider p a:hover {
+    color: #303030;
+}
+
+#slider img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* ---------- Menu Principal --------------- */
+
+
+nav {
+        
+}
+
+#menu-principal ul {
+    display: block;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+
+#menu-principal ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+#menu-principal ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-principal ul li a:hover {
+    color: yellow;
+}
+
+#twitter {
+    background: url("visuels/oiseau.png");
+    width: 404px;
+    height: 70px;
+    float: right;
+    margin-right: 135px;
+    margin-top: -23px;
+}
+
+#twitter p{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    color: white;
+}
+
+#twitter p a {
+    text-decoration: none;
+    color: white;
+}
+
+#twitter p a:hover {
+    color: #fff600;
+}
+
+
+
+/* --------------- Article ------------- */
+
+.autresReferences , .autresNews , .autresTemoignages {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section {
+    width: 100%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+section article {
+    margin-left: 100px;
+}
+
+section h2 {
+    margin-top: 20px;
+}
+
+section p {
+    font-weight: bold;
+    text-align: justify;
+}
+
+section #projets {
+    float: left;
+    width: 350px;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.autresReferences{
+    margin-top: 30px;
+}
+
+.autresReferences a{
+    text-decoration: none;  
+    color: black;
+}
+
+.autresReferences a:hover {
+    color: #dd412b;
+}
+
+.titre-projet {
+    margin-left: 25px;
+}
+
+.folio1{
+    margin-top: 20px;
+    width: 352px;
+    height: 179px;
+    display: block;
+    background: url(visuels/folio1.jpg);
+}
+
+.folio1:hover{
+    background-image: url(visuels/folio1-over.jpg);
+}
+
+.folio2{
+    width: 352px;
+    height: 179px;
+    display: block;
+    background: url(visuels/folio2.jpg);
+}
+
+.folio2:hover{
+    background-image: url(visuels/folio2-over.jpg);
+}
+
+.folio3{
+    width: 352px;
+    height: 179px;
+    display: block;
+    background: url(visuels/folio3.jpg);
+}
+
+.folio3:hover{
+    background-image: url(visuels/folio3-over.jpg);
+}
+
+.folio4{
+    padding-top: 0;
+    width: 352px;
+    height: 179px;
+    display: block;
+    background: url(visuels/folio4.jpg);
+}
+
+.folio4:hover{
+    background-image: url(visuels/folio4-over.jpg);
+}
+
+#article1 {
+    float: left;
+    width: 18%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#article1 h2 img {
+    float: right;
+}
+
+#article1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#article1 a:hover {
+    color: #dd412b;
+}
+
+.autresNews {
+    margin-top: 97px;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.date2 {
+    float: left;
+}
+
+#article2 {
+    float: right;
+    width: 33%;
+    margin-right: 110px;
+    padding-right: -10px;
+    margin-top: 40px;
+    
+}
+
+.bloc-jaune{
+    margin-top: 20px;
+    background-image: url("visuels/bloc-jaune.jpg");
+    background-repeat: no-repeat;
+    width: 404px;
+    height: 500px;
+    
+}
+
+.bloc-jaune a {
+    text-decoration: none;
+    color: black;
+}
+
+.bloc-jaune a:hover {
+    color: #dd412b;
+}
+
+.bloc-jaune p {
+    width: 300px;
+    height: 172px;
+    text-align: justify;
+    margin-left: 30px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.autresTemoignages {
+    margin-top: -220px;
+    margin-bottom: 70px;
+}
+
+.autresTemoignages a{
+    text-decoration: none;
+    color: black;
+}
+
+.autresTemoignages a:hover {
+    color: #dd412b;
+}
+
+.bienvenue {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.news {
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+#article2 h2 {
+    margin-top: 20px;
+}
+
+#derniers-liens {
+    width: 100%;
+}
+
+#derniers-liens ul {
+    
+}
+
+#derniers-liens ul li {
+    display: inline;
+}
+
+#derniers-liens ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+} 
+
+
+
+/* ------------------ Footer ------------------ */
+
+footer {
+    background: url(visuels/pattern.gif);
+    width: 100%;
+    height: 371px;
+    float: left;
+    color: white;
+}
+
+footer div h1 .titre-un {
+    margin-left: 20px;
+}
+
+footer ul li {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+footer .un {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+footer .deux {
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+    padding-right: 30px;
+}
+
+footer .deux a {
+    text-decoration: none;
+    color: #fff600;
+    padding-bottom: 10px;
+}
+
+footer .deux a:hover {
+    text-decoration: underline;
+}
+
+footer .deux p {
+    margin-top: 20px;
+}
+
+.droite {
+    float: left;
+}
+
+.gauche {
+    margin-left: 250px;
+}
+
+
+/* --------------- Bandeau de pied de page ------------- */
+
+
+#bandeauPied {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+    float: left;
+}
+
+#bandeauPied p {
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 40px
+}
+
+#bandeauPied img {
+    float: right;
+    margin-left: 10px;
+}
+
+#reseauxPied {
+    margin-top: -25px;
+    margin-right: 150px;
+}
+
+#bandeauPied img:hover {
+    margin-top: 3px;
+}
